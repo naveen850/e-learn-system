@@ -77,9 +77,9 @@
      
    <table> <tr><td>  <img src="20191025_131156.jpg" class="rounded-circle"></td>
  
-  <td style="padding-left: 600px;">
+  <td style="padding-left: 500px;">
 
-    <nav  style="display: inline;margin-left: 60px;">
+    <nav  style="display: inline;">
    
         <ul class="nav nav-pills">
             <li class="nav-item">
@@ -95,9 +95,9 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Admin</a>
-                <a class="dropdown-item" href="#">Faculty</a>
-                <a class="dropdown-item" href="#">Student</a>
+                <a class="dropdown-item" href="admin">Admin</a>
+                <a class="dropdown-item" href="faculty">Faculty</a>
+                <a class="dropdown-item" href="student">Student</a>
              
             </li>
             </ul>
