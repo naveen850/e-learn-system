@@ -71,11 +71,11 @@
    </style>
   <title></title>
 </head>
-<body background="C:\Users\welcome\Desktop\e-learn.png">
+<body background="e-learn.png">
    
   <header>
      
-   <table> <tr><td>  <img src="C:\Users\welcome\Downloads\20191025_131156.jpg" class="rounded-circle"></td>
+   <table> <tr><td>  <img src="20191025_131156.jpg" class="rounded-circle"></td>
  
   <td style="padding-left: 600px;">
 
