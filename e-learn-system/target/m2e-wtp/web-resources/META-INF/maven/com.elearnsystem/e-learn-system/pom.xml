@@ -47,10 +47,10 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 </exclusion>
 </exclusions>
 </dependency>
-<!-- <dependency>
+<dependency>
     <groupId>javax.servlet</groupId>
-   	5	<artifactId>jstl</artifactId>
-    </dependency> -->
+   <artifactId>jstl</artifactId>
+    </dependency> 
 <dependency>
 <groupId>org.springframework.boot</groupId>
 <artifactId>spring-boot-starter-data-jpa</artifactId>

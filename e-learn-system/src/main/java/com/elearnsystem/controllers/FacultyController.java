@@ -15,5 +15,6 @@ public class FacultyController {
 		model.addAttribute(faculty);
 		return "facultylogin";
 	}
+	 
 
 }
