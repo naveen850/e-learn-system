@@ -41,7 +41,7 @@
                
                       if(((at==1)&&(dot==1))&&(atposition<dotposition))
                              {
-                              alert("email is correct");
+                              return true;
                                 }
                          else{
              alert("plearse enter valid email address");
@@ -51,21 +51,26 @@
         }
         </script>
 </head>
-<body>
+<body background="faculty.jpg" style="background-repeat: no-repeat; background-size: cover;">
 <form:form action="facultyLogin" method="post" modelAttribute="faculty" onsubmit="return validate()">
- <table class="table table-hover">
-     <tr>
- 	<td>Email</td><td><form:input path="email" type="text" id="mail"/></td>
- 	</tr>
- 	<tr>
- 	<td>Password</td><td><form:input path="password" type="text"/></td>
- 	</tr>
- 	
- 	<tr>
- 	<td><input type="submit" value="Login"></td>
-    </tr>
- 
- </table></form:form>
+ <table align="center" style="margin-top: 19%;" >
+ <div class="form-group" style="margin-left: 2%; margin-right: 2%;">
+       <tr> <td><label for="inputEmail"><b>Email</b></label></td></tr>
+       <tr><td> <form:input path="email" class="form-control" id="inputEmail" placeholder="Email"/></td></tr>
+        
+        </div>
+        <div class="form-group" style="margin-left: 2%;margin-right: 2%;"><tr></tr>
+       <tr><td> <label for="inputPassword"><b>Password</b></label></td></tr>
+       <tr><td> <form:input path="password" class="form-control" id="inputPassword" placeholder="Password"/>
+       </td></tr>
+        </div>
+         <div class="form-group" style="margin-left: 2%;margin-right: 2%;">
+     <tr><td>   <label class="form-check-label"><input type="checkbox"> <b>Remember me</b></label></td></tr>
+    </div>
+   <tr><td> <button type="submit" class="btn btn-primary" style="margin-left: 2%;margin-right: 2%;">Login</button>
+     </td></tr>
+        </table>
+ </form:form>
   ${Message }
 </body>
 </html>

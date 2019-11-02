@@ -2,9 +2,11 @@ package com.elearnsystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 import com.elearnsystem.ELearnSystemApplication;
 @SpringBootApplication
+@ComponentScan("com.elearnsystem")
 public class ELearnSystemApplication {
 
 	public static void main(String[] args) {
