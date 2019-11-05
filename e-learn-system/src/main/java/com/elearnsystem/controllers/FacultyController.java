@@ -37,13 +37,8 @@ public class FacultyController{
 		model.addAttribute(faculty);
 		return "facultylogin";
 	}
-	@RequestMapping(value = "/facultyLogin",method = RequestMethod.POST)
-	public String viewFaculty(Model model)
-	{
+
 	
-		
-	return "facultyservices";
-	}
 
 	
 	@RequestMapping(value="/addvideo", method = RequestMethod.GET)

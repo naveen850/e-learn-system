@@ -8,12 +8,12 @@
 </head>
 <body>
 <nav>
-<a href="facultyregister" target="F2">Add Faculty</a><br>
+<a href="addfaculty" target="F2">Add Faculty</a><br>
 <a href="addcourse" target="F2">Add Course</a><br>
 <a href="#" target="F2">Schedule Test</a><br>
 <a href="#" target="F2">View Result</a><br>
 <a href="#" target="F2">View Faculty </a><br>
-<a href="#" target="F2">View Students</a><br>
+<a href="viewstudents" target="F2">View Students</a><br>
 <a href="#" target="F2">Report Feedback</a>
 </nav>
 

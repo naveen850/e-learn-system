@@ -83,7 +83,7 @@
    
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="project">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
@@ -122,11 +122,11 @@
    
   </td>
   
-  <td style="padding-left: 100px;"  class="foottd">
+  <th style="padding-left: 100px;"  class="foottd">
       Offers
     
 
-  </td>
+  </th>
   <td style="padding-left: 100px;" class="foottd">connect with us</td>
   <td style="padding-left: 100px;" class="foottd">contact us</td>
   </tr>
@@ -136,7 +136,7 @@
       <td style="padding-left: 100px;"  class="acolor"><img src="">facebook</td>
       <td style="padding-left: 100px;"  class="acolor"><img src="">E-mail</td></tr>
      <tr><td class="acolor"> contact us</td></tr>
-     <tr><td class="acolor"> view courses</td></tr>
+     <tr><td class="acolor"> <a href="viewcourses">view courses</a></td></tr>
 
 </table>
 
