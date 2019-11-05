@@ -32,7 +32,7 @@ public class AdminController {
 	return "adminlogin";	
 	}
     @RequestMapping(value="/adminLoginProcess",method=RequestMethod.POST)
-    public String adminLoginProcess(@RequestParam("username") String username,@RequestParam("password") String password,Model model,HttpSession session)
+    public String  adminLoginProcess(@RequestParam("username") String username,@RequestParam("password") String password,Model model,HttpSession session)
     {
     	if(username.equals("veena") && password.equals("veena123"))
     	{
